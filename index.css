@@ -1,0 +1,59 @@
+
+html,body{
+    height:297mm;
+    width:210mm;
+}
+
+
+.flex-container{
+    display: flex;
+}
+
+.leftTitle h1, .leftTitle h2{
+margin: 0;
+}
+
+.left {
+    
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+.titleHelper{
+    width: 10%;
+}
+
+.middle{
+    border-width: .1px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+
+.right{
+    font-weight: bold;
+    text-align: right;
+    margin-right: 30%;
+}
+.eduDesc{
+    margin-top: 0;
+}
+
+.ExperienceDescription{
+    margin-left: 3%;
+    margin-right: 20%;
+    margin-bottom: 4%;
+}
+
+.rightContact{
+line-break:normal;
+}
+
+.emploidDuration{
+    display: flex;
+    text-align: right;
+}
+
+.middleGap{
+    width: 10em;
+}
